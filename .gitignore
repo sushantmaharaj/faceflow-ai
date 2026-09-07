@@ -1,0 +1,47 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Temp processing
+temp/
+*.tmp
+
+# InsightFace models (large, auto-downloaded)
+~/.insightface/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# Test images in root
+test_*.jpg
+test_*.jpeg
+test_*.png
+
+# Contracts build artifacts
+contracts/build/
